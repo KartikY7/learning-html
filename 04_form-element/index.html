@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+
+<body>
+    <div>
+    <h1>HTML Form</h1>
+    <h2>Login Form</h2>
+    <form action="/">
+        <p>
+        <div><label for="name"></label>Your name </label></div>
+        <input id="name" type="text" placeholder="First and last name" required>
+        </p>
+        <p>
+        <div><label for="mobile">Mobile Number</label></div>
+        <input id="mobile" type="tel" placeholder="Enter your Mobile Number" required minlength="10" maxlength="10">
+        </p>
+        <p>
+        <div><label for="email">Email</label></div>
+        <input id="email" type="email" placeholder="email" required>
+        </p>
+        <p>
+        <div><label for="address">Residence</label></div>
+        <input id="Residence" type="address" placeholder="address" required>
+        </p>
+        <p>
+        <div><label for="password">Password</label></div>
+        <input id="password" type="password" placeholder="password" required minlength="6" maxlength="12">
+        </p>
+        <p>
+        <div><label for="password">Re-enter password</label> </div>
+        <input id="password" type="password" placeholder="password" required minlength="6" maxlength="12">
+        </p>
+        <div><P>Agree to terma & conditions <input type="checkbox" required></P></div>
+        <button type="reset">Reset</button>
+        <button type="Submit">Submit</button>
+    </form>
+</div>
+<br>
+<br>
+<br><br><br><br><br><br><br>
+
+
+
+    <div >
+        <h2>Youtube</h2>
+        <form action="https://www.youtube.com/results">
+            <input id="youtube" type="text" name="search_query">
+            <button>Search on youtube</button>
+        </form>
+        <h2>Flipkart</h2>
+        <form action="https://www.flipkart.com/search">
+            <label for="youtube">Flipkart Search</label>
+            <input id="flipkart" type="text" name="q">
+            <button type="Search on flipkart">Search on flipkart</button>
+        </form>
+        <h2>Amazon</h2>
+        <form action="https://www.amazon.com/s">
+             <label for="amazon">Amazon Search</label>
+             <input id="amazon" type="text" name="k">
+             <button type="Search on amazon">Search on amazon</button>
+        </form>     
+        <h2>Google</h2>
+        <form action="https://www.google.com/search">
+            <label for="google">Google Search</label>
+            <input id ="google" type="text" name="q">
+            <button type="Search on google">Search on google</button>
+        </form>
+        <form action="/">
+            <h2>My Form</h2>
+            <input type="text" placeholder="Please enter your name" required>
+            <input type="password" placeholder="Please enter your password" required minlength="6" maxlength="10">
+            <input type="number">
+            <input type="tel">
+            <input type="checkbox">
+            <input type="color">
+            <input type="date">
+            <input type="time">
+            <input type="file">
+            <input type="submit" value="Search">
+            <button type="">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
