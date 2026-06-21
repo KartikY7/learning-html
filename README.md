@@ -24,7 +24,7 @@ This repository contains my HTML learning exercises and practice projects comple
 ## Learning Source
 
 * freeCodeCamp Responsive Web Design Certification
-* Frontend Bootcamp (Hindi)
+* Frontend Bootcamp 
 * Personal Practice and Exercises
 
 ## Author
